@@ -308,6 +308,26 @@ input[type=range] {
     accent-color: rgb(0, 0, 0);
 }
 
+#lefticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+
+#righticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+
 
 
 
@@ -358,6 +378,10 @@ input[type=range] {
 
     .right {
         margin: 0;
+    }
+
+    .hamburgerCont {
+        gap: 8px;
     }
 
 
