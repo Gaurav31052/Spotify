@@ -285,7 +285,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .left .close {
@@ -312,9 +312,9 @@ input[type=range] {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    width: 30px;
-    height: 30px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 31px;
+    height: 31px;
     border-radius: 35px;
 }
 
@@ -322,9 +322,9 @@ input[type=range] {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    width: 30px;
-    height: 30px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 31px;
+    height: 31px;
     border-radius: 35px;
 }
 
@@ -450,6 +450,10 @@ input[type=range] {
 
     .library {
         height: 85vh;
+    }
+
+    .hamburgerCont {
+        gap: 7px;
     }
 
 
